@@ -1,0 +1,52 @@
+/* Style for the form container */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  /* Style for the form heading */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Style for the form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the form input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Style for the form radio buttons */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Style for the form submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the form submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
